@@ -61,12 +61,12 @@ decision this tool is meant to support.
 ## Project structure
 
 ```
-inventory_sim/
-├── data_generator.py   # synthetic SKU + demand data
-├── policies.py         # 3 inventory policy classes + EOQ/safety-stock math
-├── simulation.py       # day-by-day simulation engine + metrics
+src/inventory_sim/
+├── data_generator.py   # SKU generator + demand data
+├── policies.py         # 3 inventory managment policies + EOQ/safety-stock math
+├── simulation.py       # day-by-day simulation engine
 ├── app.py              # Streamlit dashboard
-├── test_run.py         # quick CLI smoke test (no dashboard needed)
+├── test_run.py         # quick CLI test (no dashboard needed)
 └── requirements.txt
 ```
 
