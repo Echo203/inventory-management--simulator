@@ -85,8 +85,6 @@ python test_run.py
 
 ## Possible extensions
 
-- Plug in a real dataset (Kaggle's DataCo Supply Chain or Walmart sales data)
-- Add a forecasting layer so reorder points adapt to a rolling forecast
-  instead of historical averages
-- Add supplier lead-time variability (not just demand variability) to
-  stress-test service levels
+- Plug in a real dataset (sales data from Kaggle)
+- Add a forecasting layer so reorder points adapt to a rolling forecast instead of historical averages
+- Add supplier lead-time variability (not just demand variability) to stress-test service levels
