@@ -1,0 +1,19 @@
+[project]
+name = "inventory-sim"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "plotly>=7.0.0",
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+inventory-sim = "inventory_sim:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
